@@ -134,3 +134,24 @@ To get a local copy up and running, follow these steps.
 ### ### 🔑 Environment Variables
 
 Create a `.env` file in the root directory and add the following:
+The base URL for your short links (e.g., http://localhost:5000)
+BASE_URL="Your_Base_URL"
+
+Your MongoDB connection string OR Redis connection details
+MONGO_URI="Your_MongoDB_Connection_String"
+
+REDIS_HOST="localhost"
+REDIS_PORT=6379
+The port for the server to run on
+PORT=5000
+
+
+---
+## ## 📜 License
+
+Distributed under the MIT License. See `LICENSE` file for more information.
+
+---
+## ## 📬 Contact
+
+Brajesh - [@Brajesh31 on GitHub](https://github.com/Brajesh31)
